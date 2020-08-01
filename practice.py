@@ -22,5 +22,3 @@ while a<len(StudentName):
 print("大于60分：",HighGrape)
 print("小于60分：",LowGrape)
 
-
-#修改代码
