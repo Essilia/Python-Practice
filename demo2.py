@@ -4,6 +4,7 @@
 #     sum=sum+x
 # print(sum)
 
+
 """
 计算1-100所有数值的和
 sum=0
