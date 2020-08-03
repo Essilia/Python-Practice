@@ -17,6 +17,7 @@ print(1,"+",a,"=")
 #定义类
 #class 类名():  //类名的首字母要大写
 # 面向对象编程
+
 class Car():
     def __init__(self,pinpai,yanse,neishi,jilun):
         self.pinpai=pinpai
