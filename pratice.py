@@ -22,7 +22,6 @@ while a<len(StudentName):
 print("大于60分：",HighGrape)
 print("小于60分：",LowGrape)
 
-
 """
 1、九九乘法表
 2、判断和循环语句的案例练习
