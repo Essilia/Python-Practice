@@ -14,7 +14,6 @@ def jiafa(a,b):
 a=jiafa(1,2)
 print(1,"+",a,"=")
 
-
 #定义类
 #class 类名():  //类名的首字母要大写
 
