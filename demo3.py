@@ -20,17 +20,17 @@ print(1,"+",c,"=")
 # 面向对象编程
 
 class Car():
-    def __init__(self,pinpai,yanse,neishi,jilun):   #默认属性方法_init_
-         """
+    def __init__(self,pinpai,yanse,neishi,jilun):   #默认属性方法_init_，可以认为是初始化
+        """
         车子的属性
         """
-        print(""你"+self.yanse+"为红色的样式特别"+self.neishi+"盘带着"+self.jilun+self.pinpai")
+        print("你"+self.yanse+"为红色的样式特别"+self.neishi+"盘带着"+self.jilun+self.pinpai)
         self.pinpai=pinpai
         self.yanse=yanse
         self.neishi=neishi
         self.jilun=jilun
     def bianxing(self,num):
-        print(""你"+self.yanse+"为红色的样式特别"+self.neishi+"盘带着"+self.jilun+self.pinpai")
+        print("你"+self.yanse+"为红色的样式特别"+self.neishi+"盘带着"+self.jilun+self.pinpai)
         if num==1:
             print("车子会变成喜羊羊")
         elif num==2:
@@ -41,7 +41,7 @@ class Car():
         """
         车子会飞
         """
-        print(""你"+self.yanse+"为红色的样式特别"+self.neishi+"盘带着"+self.jilun+self.pinpai")
+        print("你"+self.yanse+"为红色的样式特别"+self.neishi+"盘带着"+self.jilun+self.pinpai)
         print("车子开始起飞！")
 
 Essilia=Car("劳斯莱斯","红色的","豪华","四轮")  #实例化对象，Essilia变量指向的就是一个Car的实例化
