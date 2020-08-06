@@ -22,6 +22,18 @@ while a<len(StudentName):
 print("大于60分：",HighGrape)
 print("小于60分：",LowGrape)
 
+
+"""
+练习3：获取用户输入的信息，并且存储到字典中
+个人信息包括：name、age、sex
+"""
+name=input("请输入姓名：")
+age=input("请输入年龄：")
+sex=input("请输入性别：")
+userinfo={"姓名":name,"年纪":age,"性别":"sex}
+# userinfo.update(name=name,age=age,sex=sex)
+print("您的用户信息为："+str(userinfo))
+
 """
 1、九九乘法表
 2、判断和循环语句的案例练习
