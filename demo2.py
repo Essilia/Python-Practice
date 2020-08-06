@@ -79,6 +79,7 @@ try:
     print(a,b)
 except:
     print("请输入正确的姓名和年龄！")
+    
 
 
 
