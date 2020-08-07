@@ -52,13 +52,13 @@ class Girlfreind(object): #object:祖师爷类，没有要继承的类，该类�
 
 class girlfriend(Girlfreind):  #继承
     pass                       #pass是占位符
-zhangsan=girlfriend("男","180cm","18岁","60kg","黑色短发")
+zhangsan=girlfriend("女","180cm","18岁","60kg","黑色短发")
 zhangsan.cooking()
 
-class girlfriend(Girlfreind):  #重写
+class boyfriend(Girlfreind):  #重写
     def cooking(self):
         print("全能泡面王")                       
-zhangsan=girlfriend("男","180cm","18岁","60kg","黑色短发")
+zhangsan=boyfriend("男","180cm","18岁","60kg","黑色短发")
 zhangsan.cooking()
 
 
