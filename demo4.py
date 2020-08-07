@@ -61,3 +61,4 @@ class girlfriend(Girlfreind):  #重写
 zhangsan=girlfriend("男","180cm","18岁","60kg","黑色短发")
 zhangsan.cooking()
 
+
